@@ -22,6 +22,8 @@ public class EbayTokenCaller {
 
     private OkHttpClient client;
     private final String clientId, clientSecret;
+    public static final String VIEW_PUBLIC_DATA_SCOPE = "https://api.ebay.com/oauth/api_scope";
+
     public static final String BASE_URL = "https://api.ebay.com/";
     public static final String BASE_SANDBOX_URL = "https://api.sandbox.ebay.com/";
     private EbayTokenAPI ebayTokenAPI;

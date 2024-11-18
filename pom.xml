@@ -2,9 +2,9 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>com.avsemprize.ebay</groupId>
-  <artifactId>Ebay</artifactId>
-  <version>0.0.1</version>
+  <groupId>com.avsemprize</groupId>
+  <artifactId>ebay</artifactId>
+  <version>0.0.3</version>
   <packaging>jar</packaging>
   <name>Ebay</name>
   <url>http://maven.apache.org</url>
@@ -13,6 +13,14 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
 
+  <distributionManagement>
+    <repository>
+      <id>github</id>
+      <name>ebay</name>
+      <url>https://maven.pkg.github.com/AvExpresso/AvsMavenRepo</url>
+    </repository>
+  </distributionManagement>
+
   <dependencies>
     <!-- https://mvnrepository.com/artifact/com.squareup.retrofit2/retrofit -->
     <dependency>
@@ -20,11 +28,11 @@
       <artifactId>retrofit</artifactId>
       <version>2.9.0</version>
     </dependency>
-    <!-- https://mvnrepository.com/artifact/com.google.code.gson/gson -->
+
     <dependency>
-      <groupId>com.google.code.gson</groupId>
-      <artifactId>gson</artifactId>
-      <version>2.10.1</version>
+      <groupId>com.squareup.okio</groupId>
+      <artifactId>okio</artifactId>
+      <version>3.9.1</version> <!-- Replace with a version compatible with your OkHttp -->
     </dependency>
 
     <!-- https://mvnrepository.com/artifact/com.squareup.retrofit2/converter-gson -->
@@ -32,6 +40,13 @@
       <groupId>com.squareup.retrofit2</groupId>
       <artifactId>converter-gson</artifactId>
       <version>2.9.0</version>
+    </dependency>
+
+    <!-- https://mvnrepository.com/artifact/com.google.code.gson/gson -->
+    <dependency>
+      <groupId>com.google.code.gson</groupId>
+      <artifactId>gson</artifactId>
+      <version>2.10.1</version>
     </dependency>
 
     <!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
@@ -42,7 +57,9 @@
       <scope>provided</scope>
     </dependency>
 
+
   </dependencies>
+
   <build>
     <plugins>
       <plugin>
