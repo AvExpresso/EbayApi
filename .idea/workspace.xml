@@ -4,14 +4,30 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="03a83f6c-a5e1-4891-a172-dee60575b4c9" name="Changes" comment="added the option to use sandbox or production url">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="03a83f6c-a5e1-4891-a172-dee60575b4c9" name="Changes" comment="added okio missing library">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/avsemprize/ebay/callers/EbayInventoryCaller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/avsemprize/ebay/models/inventory/inventoryitem/Availability.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/avsemprize/ebay/models/inventory/inventoryitem/ConditionDescriptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/avsemprize/ebay/models/inventory/inventoryitem/Dimensions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/avsemprize/ebay/models/inventory/inventoryitem/InventoryItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/avsemprize/ebay/models/inventory/inventoryitem/InventoryResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/avsemprize/ebay/models/inventory/inventoryitem/PackageWeightAndSize.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/avsemprize/ebay/models/inventory/inventoryitem/Parameter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/avsemprize/ebay/models/inventory/inventoryitem/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/avsemprize/ebay/models/inventory/inventoryitem/ShipToLocationAvailability.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/avsemprize/ebay/models/inventory/inventoryitem/Warning.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/avsemprize/ebay/models/inventory/inventoryitem/Weight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/avsemprize/ebay/models/inventory/offer/Amount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/avsemprize/ebay/models/inventory/offer/Charity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/avsemprize/ebay/models/inventory/offer/EbayOffer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/avsemprize/ebay/models/inventory/offer/ListingPolicies.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/avsemprize/ebay/models/inventory/offer/PricingSummary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/avsemprize/ebay/models/inventory/offer/Tax.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/avsemprize/ebay/services/EbayInventoryAPI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/avsemprize/ebay/callers/EbayTokenCaller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/avsemprize/ebay/callers/EbayTokenCaller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/avsemprize/ebay/callers/EbayAuthClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/avsemprize/ebay/callers/EbayAuthClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/avsemprize/ebay/services/EbayService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/avsemprize/ebay/services/EbayService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,14 +127,23 @@
       <option name="project" value="LOCAL" />
       <updated>1693752305304</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="added okio missing library">
+      <option name="closed" value="true" />
+      <created>1731945292480</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1731945292480</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
     <MESSAGE value="added EbayConfig" />
     <MESSAGE value="added the option to use sandbox or production url" />
-    <option name="LAST_COMMIT_MESSAGE" value="added the option to use sandbox or production url" />
+    <MESSAGE value="added okio missing library" />
+    <option name="LAST_COMMIT_MESSAGE" value="added okio missing library" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

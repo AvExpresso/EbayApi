@@ -1,6 +1,7 @@
 package com.avsemprize.ebay.services;
 
 import com.avsemprize.ebay.callers.EbayBrowserApiCaller;
+import com.avsemprize.ebay.callers.EbayInventoryCaller;
 import com.avsemprize.ebay.callers.EbayTokenCaller;
 import com.avsemprize.ebay.config.EbayConfig;
 import com.avsemprize.ebay.models.token.EbayToken;
@@ -19,6 +20,9 @@ public class EbayService {
     }
     public EbayBrowserApiCaller getEbayBrowserCaller(EbayToken token){
         return new EbayBrowserApiCaller(token, baseUrl);
+    }
+    public EbayInventoryCaller getEbayInventoryCaller(EbayToken token){
+        return new EbayInventoryCaller(token, baseUrl);
     }
     public EbayTokenCaller getEbayTokenCaller(String scopes){
         return new EbayTokenCaller(config, baseUrl, scopes);

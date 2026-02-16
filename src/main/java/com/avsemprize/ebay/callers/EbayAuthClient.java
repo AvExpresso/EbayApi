@@ -1,11 +1,5 @@
 package com.avsemprize.ebay.callers;
 
-import okhttp3.*;
-import retrofit2.Retrofit;
-import retrofit2.converter.gson.GsonConverterFactory;
-
-import java.io.IOException;
-
 public class EbayAuthClient {
 
     private static final String CLIENT_ID = "your_client_id";
